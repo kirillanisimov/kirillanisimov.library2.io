@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Book Library</title>
+
+</head>
+<body>
+    <button class="add">+ Add Book</button>
+    <div class="content">
+    </div>
+    
+    <div class="modal">
+        <div class="modal-content">
+            <button class="close">×</button>
+            <form>
+                <input type="text" name="title" placeholder="Book Title" required>
+                <input type="text" name="author" placeholder="Author" required>
+                <select name="genre" required>
+                    <option value="Detective">Detective</option>
+                    <option value="Fantasy">Fantasy</option>
+                    <option value="Novel">Novel</option>
+                    <option value="Poetry">Poetry</option>
+                </select>
+                <textarea name="description" placeholder="Description" required></textarea>
+                <button type="submit">Save</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
